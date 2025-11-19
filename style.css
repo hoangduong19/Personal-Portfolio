@@ -53,7 +53,6 @@ html {
 }
 .container {
 	display:flex;
-	
 }
 .menu {
 	display: flex;
@@ -125,8 +124,6 @@ footer {
 	line-height: 1.2;
 }
 
-
-
 .wrapper-col {
 	margin: 0.75rem auto;
 	border: 1px solid;
@@ -139,13 +136,12 @@ footer {
 	
 }
 .section-col {
-	
+	flex: 1;
     
 }
 .section-col-li li {
 	display: flex;
 	justify-content: center;
-    border-right: none;
     border-bottom: 1px solid black;
 	padding: 0.5rem;
 }
